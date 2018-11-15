@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/HowToGroupFields/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/HowToGroupFields/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/HowToGroupFields/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/HowToGroupFields/MainWindow.xaml))
+<!-- default file list end -->
 # How to: Group Fields
 
 
