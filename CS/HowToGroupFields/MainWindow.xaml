@@ -4,8 +4,7 @@
         xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"
         Title="MainWindow" Height="350" Width="525"  Loaded="Window_Loaded">
     <Grid>
-        <dxpg:PivotGridControl HorizontalAlignment="Left" Name="pivotGridControl1" 
-                               VerticalAlignment="Top">
+        <dxpg:PivotGridControl Name="pivotGridControl1">
             <dxpg:PivotGridControl.Fields>
                 <dxpg:PivotGridField Name="fieldCountry" FieldName="Country" Area="RowArea" 
                                      Group="{Binding ElementName=groupCountryCustomer}" />
@@ -15,9 +14,9 @@
                 <dxpg:PivotGridField Name="fieldYear" FieldName="OrderDate" Area="FilterArea"
                                      Caption="Year" GroupInterval="DateYear" />
                 <dxpg:PivotGridField Name="fieldCategoryName" FieldName="CategoryName"
-                                     Area="ColumnArea" Caption="Product Category" />
+                                     Area="ColumnArea" Caption="Category" />
                 <dxpg:PivotGridField Name="fieldProductName" FieldName="ProductName"
-                                     Area="ColumnArea" Caption="Product Name" />
+                                     Area="ColumnArea" Caption="Product" />
                 <dxpg:PivotGridField Name="fieldExtendedPrice" FieldName="Extended Price"
                                      Area="DataArea" CellFormat="c0" />
             </dxpg:PivotGridControl.Fields>

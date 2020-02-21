@@ -1,11 +1,12 @@
 ﻿using System.Windows;
 using DevExpress.Xpf.PivotGrid;
-using HowToBindToMDB.NwindDataSetTableAdapters;
+using HowToBindToMDB.DataSet1TableAdapters;
+using static HowToBindToMDB.DataSet1;
 
 namespace HowToBindToMDB {
     public partial class MainWindow : Window {
-        NwindDataSet.SalesPersonDataTable salesPersonDataTable = 
-            new NwindDataSet.SalesPersonDataTable();
+        SalesPersonDataTable salesPersonDataTable = 
+            new SalesPersonDataTable();
         SalesPersonTableAdapter salesPersonDataAdapter = new SalesPersonTableAdapter();
         public MainWindow() {
             InitializeComponent();
